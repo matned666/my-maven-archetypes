@@ -2,9 +2,9 @@
 <archetype>
     <id>gwt-starter</id>
     <sources>
-        <source>src\main\java\client\__module__.java</source>
+        <source>src\main\java\client\App.java</source>
     </sources>
     <resources>
-        <resource>src\main\module.gwt.xml</resource>
+        <resource>src\main\java\App.gwt.xml</resource>
     </resources>
 </archetype>

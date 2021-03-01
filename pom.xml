@@ -3,12 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>eu.mrndesign.matned</groupId>
     <artifactId>simple-gwt-archetype-by-matned</artifactId>
     <version>0.1</version>
-    <packaging>pom</packaging>
-    <name>simple-gwt-archetype-by-matned</name>
-    <description>Set of simple maven archetypes by matned666</description>
+    <packaging>maven-archetype</packaging>
 
     <developers>
         <developer>
@@ -25,79 +24,14 @@
         </developer>
     </developers>
 
-    <modules>
-        <module>simple-gwt</module>
-    </modules>
-
-    <scm>
-        <connection>scm:git:git@github.com:matned666/matned-mvn-archetypes.git</connection>
-        <developerConnection>scm:git:git@github.com:matned666/matned-mvn-archetypes.git</developerConnection>
-        <url>https://github.com/matned666/matned-mvn-archetypes.git</url>
-    </scm>
-
-    <profiles>
-        <profile>
-            <id>release</id>
-        </profile>
-    </profiles>
-
     <build>
         <extensions>
             <extension>
                 <groupId>org.apache.maven.archetype</groupId>
                 <artifactId>archetype-packaging</artifactId>
-                <version>2.4</version>
+                <version>3.1.1</version>
             </extension>
         </extensions>
-
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>2.2.1</version>
-                <executions>
-                    <execution>
-                        <id>attach-sources</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9.1</version>
-                <executions>
-                    <execution>
-                        <id>attach-javadocs</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <artifactId>maven-archetype-plugin</artifactId>
-                <version>2.4</version>
-                <configuration>
-                    <ignoreEOLStyle>true</ignoreEOLStyle>
-                </configuration>
-            </plugin>
-        </plugins>
-
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <artifactId>maven-archetype-plugin</artifactId>
-                    <version>2.4</version>
-                    <configuration>
-                        <ignoreEOLStyle>true</ignoreEOLStyle>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
     </build>
-
 
 </project>
