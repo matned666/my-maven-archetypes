@@ -1,2 +1,7 @@
-/.idea/
-/simple-mvn-archetype-by-matned.iml
+.project
+.classpath
+.settings
+target
+test
+*.iml
+.idea
