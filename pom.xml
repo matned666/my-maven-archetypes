@@ -9,6 +9,10 @@
     <version>0.1</version>
     <packaging>maven-archetype</packaging>
 
+    <name>GWT Project simple archetype</name>
+    <description>A simple archetype for generating a short GWT projects</description>
+    <url>https://github.com/matned666/PlatformGame</url>
+
     <developers>
         <developer>
             <id>matned</id>
@@ -23,6 +27,25 @@
             <timezone>+1</timezone>
         </developer>
     </developers>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <profiles>
+        <profile>
+            <id>release</id>
+        </profile>
+    </profiles>
+
+    <scm>
+        <connection>scm:git:git://github.com/matned666/gwt-simple-mvn-archetype.git</connection>
+        <developerConnection>scm:git:ssh://github.com/matned666/gwt-simple-mvn-archetype.git</developerConnection>
+        <url>https://github.com/matned666/gwt-simple-mvn-archetype</url>
+    </scm>
 
     <build>
         <extensions>
