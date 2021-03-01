@@ -1,20 +1,14 @@
 ## Description
 
-This project provides a few maven archetypes by matned. 
-
-## Available archetypes
-
-Simple GWT archetype:<br> a simple gwt project to run in a browser.<br> 
-  `DarchetypeArtifactId=simple-gwt`<br>
-  `Dmodule=simple-gwt`<br> 
-
+This project provides a very simple maven archetype to create a simple GWT project ready to run and code. <br>
+For bigger projects I suggest `tbroyer gwt archetypes`:  
+https://github.com/tbroyer/gwt-maven-archetypes
 ## Usage
 
     mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned                
-      -DarchetypeArtifactId={artifactName}          
+      -DarchetypeArtifactId=simple-gwt-archetype-by-matned          
       -DarchetypeVersion=0.1                
       -DgroupId={yourGroupId}                               
-      -DartifactId={yourArtifactID}                            
-      -Dmodule={moduleName}                                  
+      -DartifactId={yourArtifactID}                                                      
       -Dversion={yourVersion}
 
