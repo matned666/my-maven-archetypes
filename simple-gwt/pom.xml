@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>simple-gwt</artifactId>
+    <description>simple gwt project to run in a browser</description>
+
+    <name>simple-gwt</name>
+
 
 
 </project>
