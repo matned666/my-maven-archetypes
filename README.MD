@@ -15,6 +15,12 @@ gwt-project-with-screen-manager
 and an easy screens manager
     
 
+spring-rest-base-archetype
+- base spring rest application with security and auditory archetype, tests are included all to do is move *.properties to resources folder and fill the application-dev.properties with your database data.
+Check with integration tests.
+
+    
+
 
 ## Usage
 for empty gwt project:
@@ -31,6 +37,16 @@ for gwt project with screen manager:
 
     mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned                
       -DarchetypeArtifactId=gwt-project-with-screen-manager          
+      -DarchetypeVersion=0.1                
+      -DgroupId={yourGroupId}                               
+      -DartifactId={yourArtifactID}                                                      
+      -Dversion={yourVersion}
+
+
+for rest spring base project:
+
+    mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned                
+      -DarchetypeArtifactId=spring-rest-base-archetype          
       -DarchetypeVersion=0.1                
       -DgroupId={yourGroupId}                               
       -DartifactId={yourArtifactID}                                                      
