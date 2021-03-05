@@ -2,19 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>simple-gwt-archetype-by-matned</artifactId>
+        <groupId>eu.mrndesign.matned</groupId>
+        <version>0.1</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>eu.mrndesign.matned</groupId>
-    <artifactId>simple-gwt-archetype-by-matned</artifactId>
+    <artifactId>gwt-project-with-screen-manager</artifactId>
     <version>0.1</version>
-    <modules>
-        <module>empty-gwt-project</module>
-        <module>gwt-project-with-screen-manager</module>
-    </modules>
-    <packaging>pom</packaging>
+    <packaging>maven-archetype</packaging>
 
-    <name>GWT Project simple archetype</name>
-    <description>A simple archetype for generating a short GWT projects</description>
+    <name>GWT Project simple archetype with SM</name>
+    <description>A simple archetype for generating a short GWT projects ready code with screen manager</description>
     <url>https://github.com/matned666/PlatformGame</url>
 
     <developers>
@@ -60,5 +60,6 @@
             </extension>
         </extensions>
     </build>
+
 
 </project>
