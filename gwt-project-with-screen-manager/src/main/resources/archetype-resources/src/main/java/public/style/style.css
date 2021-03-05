@@ -1,0 +1,132 @@
+body {
+    background-color: #ffffff;
+    font-family: arial, serif;
+    display: flex
+}
+
+.not-selected {
+    background-color: #fff9f8;
+}
+
+.selected {
+    background-color: rgba(210, 200, 203, 0.62);
+}
+
+.button {
+    height: 70px;
+    width: 200px;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    transition: all 0.15s linear 0s;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404040;
+    font-family: arial, serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    box-shadow: -6px 6px 5px #404040;
+    text-decoration: none;
+    outline: 0;
+    margin-left: 5%;
+}
+
+.button:active {
+    top: 3px;
+    left: -3px;
+    box-shadow: -3px 3px 5px #404040;
+}
+.button:active::after {
+    top: 1px;
+    left: -2px;
+    width: 4px;
+    height: 4px;
+}
+.button:active::before {
+    bottom: -2px;
+    right: 1px;
+    width: 4px;
+    height: 4px;
+}
+
+
+.button::after {
+    transition: all 0.15s linear 0s;
+    position: absolute;
+    top: 2px;
+    left: -4px;
+    width: 8px;
+    height: 8px;
+    background-color: #3c3c40;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.button::before {
+    transition: all 0.15s linear 0s;
+    position: absolute;
+    bottom: -4px;
+    right: 2px;
+    width: 8px;
+    height: 8px;
+    background-color: #404040;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.menu-bar{
+}
+
+.buttons-bar{
+    height: fit-content;
+    width: 14%;
+    margin-left: 1%;
+}
+
+.left{
+    border-right:  solid 3px black;
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e2e2e2;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+}
+
+.simple-centered-text{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.content{
+    text-align: center;
+    align-content: center;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -20;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
