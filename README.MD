@@ -25,30 +25,15 @@ Check with integration tests.
 ## Usage
 for empty gwt project:
 
-    mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned                
-      -DarchetypeArtifactId=empty-gwt-archetype-by-matned          
-      -DarchetypeVersion=0.1                
-      -DgroupId={yourGroupId}                               
-      -DartifactId={yourArtifactID}                                                      
-      -Dversion={yourVersion}
+    mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned -DarchetypeArtifactId=empty-gwt-archetype-by-matned -DarchetypeVersion=0.1 -DgroupId={yourGroupId} -DartifactId={yourArtifactID} -Dversion={yourVersion}
 
 
 for gwt project with screen manager:
 
-    mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned                
-      -DarchetypeArtifactId=gwt-project-with-screen-manager          
-      -DarchetypeVersion=0.1                
-      -DgroupId={yourGroupId}                               
-      -DartifactId={yourArtifactID}                                                      
-      -Dversion={yourVersion}
+    mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned -DarchetypeArtifactId=gwt-project-with-screen-manager -DarchetypeVersion=0.1 -DgroupId={yourGroupId} -DartifactId={yourArtifactID} -Dversion={yourVersion}
 
 
 for rest spring base project:
 
-    mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned                
-      -DarchetypeArtifactId=spring-rest-base-archetype          
-      -DarchetypeVersion=0.1                
-      -DgroupId={yourGroupId}                               
-      -DartifactId={yourArtifactID}                                                      
-      -Dversion={yourVersion}
+    mvn archetype:generate -DarchetypeGroupId=eu.mrndesign.matned -DarchetypeArtifactId=spring-rest-base-archetype -DarchetypeVersion=0.1 -DgroupId={yourGroupId} -DartifactId={yourArtifactID} -Dversion={yourVersion}
 
