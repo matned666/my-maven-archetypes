@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="GWT Simple Starter">
+    <fileSets>
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+                <include>**/*.xml</include>
+                <include>**/*.html</include>
+                <include>**/*.css</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
