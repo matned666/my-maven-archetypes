@@ -13,7 +13,7 @@
     <version>0.2</version>
     <packaging>maven-archetype</packaging>
 
-    <name>GWT Project simple archetype with SM</name>
+    <name>GWT Project simple archetype with SM 2</name>
     <description>A simple archetype for generating a short GWT projects ready code with screen manager-without css styles</description>
     <url>https://github.com/matned666/PlatformGame</url>
 
