@@ -1,4 +1,4 @@
-package ${package}client.screen.content;
+package ${package}.client.screen.content;
 
 import com.google.gwt.event.dom.client.KeyPressEvent;
 import com.google.gwt.user.client.ui.HTML;
